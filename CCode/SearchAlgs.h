@@ -1,0 +1,28 @@
+extern double Gibbs (int N,
+                     gsl_vector_short * Chain,
+                     gsl_vector_short * ChainCopy,
+                     gsl_vector_short * ChainCopy2,
+                     gsl_matrix_short * Adj,
+                     double Temp,
+                     gsl_vector_short * RGFswap,
+                     gsl_rng * r,
+                     gsl_vector * lgammaLookup,
+                     gsl_vector * logLookup,
+                     int maxGroups,
+                     int DegreeCorrection,
+                     double alpha,
+                     double beta
+                     );
+extern double MC3 (int N,
+                   gsl_matrix_short * Adj,
+                   int Steps,
+                   int nChains,
+                   gsl_vector_short * BestSolution,
+                   gsl_rng * r,
+                   gsl_vector * lgammaLookup,
+                   gsl_vector * logLookup,
+                   int maxGroups,
+                   int DegreeCorrection,
+                   double alpha,
+                   double beta
+                   );
