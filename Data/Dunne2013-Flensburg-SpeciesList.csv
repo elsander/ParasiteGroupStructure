@@ -1,0 +1,215 @@
+ID,Type,Name
+1,1,detritus/poc/doc
+2,1,carrion
+3,1,phytoplankton
+4,1,benthic diatoms/epiphyts
+5,1,macroalgae
+6,1,seagrass
+7,1,zooplankton (including larvae)
+8,1,meiofauna
+9,1,bacteria (sediment & free-living)
+10,1,Turbellaria
+11,1,nematodes
+12,1,Hediste diversicolor
+13,1,Spionidae
+14,1,Oligochaeta, Tubificidae
+15,1,Mytilus edulis
+16,1,Cerastoderma edule
+17,1,Mya arenaria
+18,1,Macoma balthica
+19,1,Hydrobia ventrosa
+20,1,H. neglecta
+21,1,H. ulvae
+22,1,Potamopyrgus jenkinsi
+23,1,Littorina saxatilis
+24,1,L. obtusata
+25,1,Turboella inconspicua
+26,1,Rissoa membranacea
+27,1,Balanus improvisus
+28,1,Cladocera
+29,1,Acartia bifilosa
+30,1,A. tonsa
+31,1,A. discaudata
+32,1,Centropages hamatus
+33,1,Pseudocalanus elongatus
+34,1,Temora longicornis
+35,1,Oithona atlantica
+36,1,O. similis
+37,1,Harpacticoida
+38,1,Ostracoda
+39,1,Crangon crangon
+40,1,Palaemon squilla
+41,1,Carcinus maenas
+42,1,Gammarus oceanicus
+43,1,G. salinus 
+44,1,G. zaddachi
+45,1,G. locusta
+46,1,Aoridae
+47,1,Isaeidae
+48,1,C. insidiosum
+49,1,C. volutator
+50,1,Idothea balthica
+51,1,I. chelipes
+52,1,Jaera albifrons
+53,1,Praunus inermis
+54,1,Neomysis integer
+55,1,Halacaridae
+56,1,Chironomidae-larvae/puppae
+57,1,Asterias rubens
+58,1,Pomatoschistus minutus
+59,1,P. microps
+60,1,P. pictus
+61,1,Gobiusculus flavescens
+62,1,Pholis gunellus
+63,1,Gobius niger
+64,1,Pleuronectes flesus
+65,1,Solea solea
+66,1,Syngnathus typhle
+67,1,Gasterosteus aculeatus
+68,1,Spinachia spinachia
+69,1,Pungitius pungitius
+70,1,Podicepidae/Gaviidae
+71,1,Phalacrocoracidae
+72,1,Anatidae (Tadorninae, Anatinae)
+73,1,Anatidae (Somateriinae, Athyinae)
+74,1,Charadriidae
+75,1,Laridae 
+76,1,Sternidae
+77,1,Rallidae
+78,2,Trichodina domergui
+79,2,Glossatella sp.
+80,2,Glugea anomala
+81,2,Dactylogyrus sp.
+82,2,Gyrodactylus spp.
+83,2,Himasthla continua
+84,2,H. interrupta
+85,2,H. militaris
+86,2,Cryptocotyle concavum
+87,2,C. lingua
+88,2,Cerc. microphall. No. 4
+89,2,Maritrema subdolum
+90,2,Microphallus claviformis
+91,2,M. papillorobustum
+92,2,M. pygmaeus
+93,2,Levinseniella sp.
+94,2,Podocotyle atomon
+95,2,Psilochasmus oxyurus
+96,2,Acanthostomum balthicum
+97,2,Asymphylodora demeli
+98,2,Aphalloides timmi
+99,2,Bunocotyle cingulata
+100,2,Brachyphallus crenatus
+101,2,Hemiurus communis
+102,2,H. luehei
+103,2,Lecithaster confusus
+104,2,Magnibursatus caudofilamentosa
+105,2,Fellodistomidae sp.
+106,2,Strigeidae sp.
+107,2,Tylodelphis clavata
+108,2,Bothriocephalus scorpii /sp.
+109,2,Caryophyllidea sp.
+110,2,Proteocephalus gobiorum /sp.
+111,2,Nematoda sp.?
+112,2,Anisakis simplex / sp.
+113,2,Ascarophis arctica
+114,2,Contracaecum sp. / osculatum
+115,2,Hysterothylacium sp. / aduncum
+116,2,Capillaria sp.
+117,2,Cucullanus cirratus
+118,2,Cucullanellus minutus
+119,2,Cosmocephalus obvelatus
+120,2,Rhabdochona sp.
+121,2,Acanthella-larva
+122,2,Echinorhynchus sp.
+123,2,Thersitina gasterostei
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,

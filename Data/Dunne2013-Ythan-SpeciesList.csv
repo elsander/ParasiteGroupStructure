@@ -1,0 +1,215 @@
+ID,Type,Name
+1,2,Cryptocotyle lingua
+2,2,Himasthla elongata
+3,2,Renicola roscorita
+4,2,Cercariae lebouri
+5,2,Podocotyle staffordi
+6,2,Cryptocotyle jejuna
+7,2,Himasthla continua
+8,2,Maritrema oocysta
+9,2,Maritrema subdolum
+10,2,Levinseniella sp.
+11,2,Microphallid 
+12,2,Notocotyledae 
+13,2,Himasthla interrupta
+14,2,Profilicollis botulus
+15,2,Amidostomum sp.
+16,2,Haploparaksis crassirostris
+17,2,Ophryocotyle insignis
+18,2,Psilostomum brevicolle
+19,2,Catatropis terrucosa
+20,2,Parvatrema affine
+21,2,Apophallus lerouxi
+22,2,Levinseniella brachysoma
+23,2,Maritrema humile
+24,2,Maritrema gratiosum
+25,2,Hemiuris communis
+26,2,Lecithaster gibbosus
+27,2,Derogenes varicus
+28,2,Opacelididii 
+29,2,Tetraphyllidean larvae
+30,2,Cestode 
+31,2,Lacunovermis macomae
+32,2,Hysterothylacium aduncum
+33,2,Cucullanus heterochrous
+34,2,Anisakis sp.
+35,2,Zoogonoides viviparus
+36,2,Spiruoid larvae 
+37,2,Cucullanus minutus
+38,2,Pomphorynchus sp.
+39,2,Corynosoma strumosum
+40,2,Echinorynchus sp.
+41,2,Hymenolepis sp.
+42,2,Spelotrema clariforma
+43,1,Lutra lutra
+44,1,Phalacrocorax carbo
+45,1,Ardea cinera
+46,1,Cygnus olor
+47,1,Tadorna tadorna
+48,1,Anas penelope
+49,1,Somateria mollissima
+50,1,Somateria mollissima
+51,1,Haematopus ostralegus
+52,1,Charadris hiaticula
+53,1,Pluvialis apricaria
+54,1,Pluvialis squtarola
+55,1,Vanellus vanellus
+56,1,Calidris  alpinea
+57,1,Limosa lapponica
+58,1,Numenius arquatus
+59,1,Tringa totanus
+60,1,Arenaria interpres
+61,1,Larus canus
+62,1,Larus ridibundis
+63,1,Larus argentatus
+64,1,Larus marinus
+65,1,Sterna sandvicensis
+66,1,Sterna hirundo
+67,1,Sterna paradisaea
+68,1,Corvus frugilegus
+69,1,Corvus corone
+70,1,Sprattus sprattus
+71,1,Clupea harengus
+72,1,Anguilla anguilla
+73,1,Syngnathus rostellatus
+74,1,Pollachius virens
+75,1,Ciliata mustela
+76,1,Ammodytes tobianus
+77,1,Pholis gunnellus
+78,1,Zoarces viviparus
+79,1,Pomatoschistus minutus
+80,1,Pomatoschistus microps
+81,1,Myxocephalus scorpius
+82,1,Agonus cataphractus
+83,1,Gasterosteus aculeatus
+84,1,Pleuronectes platessa
+85,1,Platichthys flesus
+86,1,Platichthys flesus
+87,1,Salmo trutta
+88,1,Crangon crangon
+89,1,Crangon crangon
+90,1,Nereis diversicolor
+91,1,Nereis virens
+92,1,Phyllodoce mucosa
+93,1,Eteone longa
+94,1,Ostracods  
+95,1,Celanoid copepods 
+96,1,Harpacticoid copepods 
+97,1,Semibalanus balanoides
+98,1,Neomysis integer
+99,1,Hyale nilssoni
+101,1,Corophium volutator
+102,1,Bathyporeia pilosa
+103,1,Gammarus sp.
+104,1,Idotea emarginata
+105,1,Jaera albifrons
+106,1,Eurydice pulchra
+107,1,Nototropis spp.
+108,1,Pygospio elegans
+109,1,Parathemisto sp.
+110,1,Capitella capitata
+111,1,Manayunkia aestuarina
+112,1,Aricia sp.
+113,1,Arenicola  marina
+114,1,Tubificoides  benedini
+115,1,Tubifex costatus
+116,1,Hydrobia  ulvae
+117,1,Littorina littorea
+118,1,Littorina saxatilis
+119,1,Alderia modestus
+120,1,Retusa obtusa
+121,1,Mya arenaria
+122,1,Macoma balthica
+123,1,Mytilus edulis
+124,1,Cerastoderma edule
+125,1,nematodes  
+126,1,Foraminifera 
+127,1,Chironomidae 
+128,1,Dipteran larvae  
+129,1,Acarina (mites & ticks) 
+130,1,Hesionidae 
+131,1,Phytoplankton 
+132,1,brown algae  
+133,1,Enteropmorpha 
+134,1,POM 
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,

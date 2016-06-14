@@ -1,0 +1,215 @@
+ID,Type,Name
+1,1,carrion-detritus
+2,1,marine-detritus
+3,1,terrestrial-detritus
+4,1,Saltwort
+5,1,epipellic flora
+6,1,Alkali Heath
+7,1,Fleshy Jaumea
+8,1,macroalgae
+9,1,Shore Grass
+10,1,phytoplankton
+11,1,Annual Pickleweed
+12,1,Parish's Pickleweed
+13,1,Pickleweed
+14,1,California Cordgrass
+15,1,Sueda
+16,1,Arrowgrass
+17,1,Eelgrass
+18,1,foraminiferan
+19,1,annelid unknown (green saccate thin skin)
+20,1,Capitella capitata
+21,1,capitellid?
+22,1,Cirriformia spirabrancha
+23,1,Neanthes "arenaceodentata"
+24,1,oligochaete
+25,1,brown hesionid
+26,1,poly unk (brwn setae ant third)
+27,1,orbiniid, pointed prostomium
+28,1,Naineris
+29,1,poly unk B (4 prost. tents)
+30,1,poly unk B (lg green)
+31,1,poly unk("fuzzy dorsum")
+32,1,Polydora sp.
+33,1,spionid
+34,1,leech(glossiphonid)
+35,1,anthozoan
+36,1,nemertean
+37,1,ophiuroid
+38,1,Blue Mussel
+39,1,Acteocina inculta
+40,1,California Assiminea
+41,1,Four-Threaded Bittium
+42,1,California Horn Snail
+43,1,Salt Marsh Snail
+44,1,Black Salt Marsh Mosquito
+45,1,Coleopteran
+46,1,corophiid?
+47,1,Western Encephalitis Mosquito
+48,1,cumacean
+49,1,cyclopoid copepod
+50,1,Ephydra
+51,1,gammaridean (red eye)
+52,1,gammaridean (red striped antennae)
+53,1,gammaridean A (BSQc3)
+54,1,harpacticoid
+55,1,Nebalia sp.
+56,1,ostracod
+57,1,ostracod-planktonic
+58,1,Paracerceis sp.
+59,1,staphylinid
+60,1,tanaidacean
+61,1,Salt Marsh Hopper
+62,1,Salt Marsh Water Boatman
+63,1,Calfornia Ghost Shrimp
+64,1,Striped Shore Crab
+65,1,Topsmelt
+66,1,Arrow Goby
+67,1,California Killifish
+68,1,Long-jawed Mudsucker
+69,1,Diamond Turbot
+70,1,Mullet
+71,1,Sicklefin Smoothhound
+72,1,California Bat Ray
+73,1,Thornback Ray
+74,1,Shadow Goby
+75,1,Shovelnose Guitarfish
+76,1,Pipefish
+77,1,Haller's Round Ray
+78,1,American Wigeon
+79,1,Black-bellied Plover
+80,1,Black-crowned Night Heron
+81,1,Belted Kingfisher
+82,1,Brant
+83,1,Brown Pelican
+84,1,Cattle Egret
+85,1,California Gull
+86,1,Caspian Tern
+87,1,Clapper Rail
+88,1,Common Loon
+89,1,Double-crested Cormorant
+90,1,Dunlin
+91,1,Eared Grebe
+92,1,Elegant Tern
+93,1,Forster's Tern
+94,1,Great Blue Heron
+95,1,Great Egret
+96,1,Greater Scaup
+97,1,Greater Yellowlegs
+98,1,Long-billed Curlew
+99,1,Long-billed Dowitcher
+100,1,Least Sandpiper
+101,1,Lesser Scaup
+102,1,Marbled Godwit
+103,1,Northern Pintail
+104,1,Osprey
+105,1,Pied-billed Grebe
+106,1,Pectoral Sandpiper
+107,1,Ring-billed Gull
+108,1,Red-breasted Merganser
+109,1,Reddish Egret
+110,1,Red Knot
+111,1,Royal Tern
+112,1,Short-billed Dowitcher
+113,1,Snowy Egret
+114,1,Tricolored Heron
+115,1,Western Gull
+116,1,Western Sandpiper
+117,1,Whimbrel
+118,1,Willet
+119,1,copepod-thalassinidean
+120,2,apicomplexan-spionid
+121,2,gregarine-Pachy
+122,2,microsporidean pachy Prob[1]
+123,2,Plasmodium sp.
+124,2,Trichodina sp.
+125,2,Gyrodactylus sp.
+126,2,Acanthoparyphium spinulosum
+127,2,microphallid-assiminea
+128,2,Austrobilharzia sp.
+129,2,Catatropis johnstoni
+130,2,Cloacitrema michiganiensis
+131,2,Euhaplorchis californiensis
+132,2,fat cyathocotylid
+133,2,Galactosomum humbargari
+134,2,hemiurid
+135,2,Himasthla rhigedana
+136,2,Himasthla B
+137,2,Hysterolecitha trilocalis
+138,2,Lecisthaster sp.
+139,2,Renicola sp.
+140,2,mc sphere
+141,2,mc unk Bittium
+142,2,mc unk lg-cirriformia
+143,2,mc unk pericaridean
+144,2,mc unk poly
+145,2,mc vs
+146,2,mega het
+147,2,Mesostephanus appendiculatus
+148,2,Parorchis acanthus
+149,2,Phocitremoides ovale
+150,2,Probolocoryphe species A
+151,2,Pygidiopsoides spindalis
+152,2,Renicola buchanani
+153,2,Renicola cerithidicola
+154,2,renic
+155,2,small cyathocotylid
+156,2,Maritrema sp.
+157,2,Stictodora hancocki
+158,2,unk a/sm meso
+159,2,Glossocercus sp.
+160,2,tetraphyllidean-fish
+161,2,trypanorhynch-fish
+162,2,trypanorhynch-thalassinidean
+163,2,Spirocamallanus pereirae
+164,2,Vasorhabdochona cablei
+165,2,Ascarophis? (Neotrypaea)
+166,2,neme-long
+167,2,cystacanth-pachygrapsus
+168,2,cystacanth-fish b.cav
+169,2,Ceratothoa sp.
+170,2,Leidya sp.
+171,2,Lironeca californica
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,

@@ -1,0 +1,215 @@
+ID,Type,Name
+1,1,detritus/poc/doc
+2,1,carrion
+3,1,phytoplankton
+4,1,benthic diatoms/epiphyts
+5,1,macroalgae
+6,1,seagrass
+7,1,zooplankton (including larvae)
+8,1,meiofauna
+9,1,bacteria (sediment & free-living)
+10,1,Hydractinia echinata
+11,1,Metridium senile
+12,1,Sagartia troglodytes
+13,1,Sagartiogeton undatum
+14,1,Obelia (Laomedea) longissima
+15,1,Alcyonidium mytili
+16,1,Electra pilosa
+17,1,Lineus viridis
+18,1,Amphiporus lactifloreus
+19,1,Tetrastemma melanocephalum
+20,1,Tubificoides benedeni
+21,1,Tubificoides pseudogaster
+22,1,Ampharete acutifrons
+23,1,Arenicola marina
+24,1,Capitella capitata
+25,1,Harmothoe sarsi
+26,1,Harmothoe imbricata
+27,1,Heteromastus filiformis
+28,1,Lanice conchilega
+29,1,Lepidonotus squamatus
+30,1,Magelona mirabilis
+31,1,Malacoceros sp.
+32,1,Nephtys hombergii
+33,1,Nereis (Hediste) diversicolor
+34,1,Nereis virens
+35,1,Phyllodoce (Anaitides) mucosa
+36,1,Eteone longa
+37,1,Polydora cilitata
+38,1,Polydora cornuta
+39,1,Spio martinensis
+40,1,Pygospio elegans
+41,1,Scolelepis squamata
+42,1,Scololepis foliosa
+43,1,Scoloplos armiger
+44,1,Tharyx killariensis
+45,1,Lepidochitona cinereus
+46,1,Aeolidia papillosa
+47,1,Crepidula fornicata
+48,1,Hydrobia ulvae
+49,1,Littorina littorea
+50,1,Cerastoderma edule
+51,1,Crassostrea gigas
+52,1,Ensis americanus
+53,1,Macoma balthica
+54,1,Mya arenaria
+55,1,Mytilus edulis
+56,1,Balanus crenatus
+57,1,Semibalanus balanoides
+58,1,Carcinus maenas
+59,1,Chaetogammarus marinus
+60,1,Crangon crangon
+61,1,Elminius modestus
+62,1,Cumopsis goodsiri
+63,1,Bathyporeia pilosa
+64,1,Bathyporeia sarsi
+65,1,Pagurus bernhardus
+66,1,Gammarus locusta
+67,1,Jaera albifrons
+68,1,Semibalanus balanoides
+69,1,Urothoe poseidonis
+70,1,Corophium arenarium
+71,1,Corophium volutator
+72,1,Praunus flexuosus
+73,1,Asterias rubens
+74,1,Styela clava
+75,1,Molgula manhattensis
+76,1,Ammodytes lancea/tobianus
+77,1,Anguilla anguilla
+78,1,Atherina presbyter
+79,1,Belone belone
+80,1,Clupea harengus
+81,1,Engraulis encrasicolus
+82,1,Gadus morhua
+83,1,Merlangius merlangus
+84,1,Mugil chelo/Chelon labrosus
+85,1,Myxocephalus scorpius
+86,1,Platichthys flesus
+87,1,Pleuronectes platessa/Platessa platessa
+88,1,Pomatoschistus microps
+89,1,Pomatoschistus minutus
+90,1,Zoarces viviparus
+91,1,Ciliata mustela
+92,1,Pholis gunellus
+93,1,Cyclopterus lumpus
+94,1,Gasterosteus aculeatus
+95,1,Syngnathus rostellatus
+96,1,Sprattus sprattus
+97,1,Haematopus ostralegus
+98,1,Recurvirostra avosetta
+99,1,Tringa nebularia
+100,1,Tringa totanus
+101,1,Tringa erythropus
+102,1,Limosa lapponica
+103,1,Numenius phaeopus
+104,1,Numenius arquata
+105,1,Pluvialis apricaria
+106,1,Pluvialis squatarola
+107,1,Charadrius hiaticula
+108,1,Calidris alpina
+109,1,Calidris canutus
+110,1,Larus ridibundus
+111,1,Larus argentatus
+112,1,Larus canus
+113,1,Sterna sandvicensis
+114,1,Sterna paradisea
+115,1,Sterna hirundo
+116,1,Branta bernicla bernicla
+117,1,Tadorna tadorna
+118,1,Anas penelope
+119,1,Anas acuta
+120,1,Anas crecca
+121,1,Anas platyrhynchos
+122,1,Somateria mollissima
+123,1,Phalacrocorax carbo
+124,1,Falco peregrinus
+125,1,Corvus corone
+126,1,Phoca vitulina
+127,2,Microphallus claviformis
+128,2,Microphallus pygmaeus
+129,2,Microphallus pirum
+130,2,Maritrema oocysta
+131,2,Maritrema subdolum
+132,2,Cercaria #15
+133,2,Levinseniella brachysoma
+134,2,Himasthla elongata
+135,2,Himasthla continua
+136,2,Himasthla interrupta
+137,2,Cryptocotyle concavum 
+138,2,Cryptocotyle jejuna
+139,2,Cryptocotyle lingua
+140,2,Cercaria ephemera/Notocotyle #10
+141,2,Cercaria lebouri/Paramonostomum chabaudi 
+142,2,Psilostomum brevicolle
+143,2,Psilochasmus aglyptorchis
+144,2,Deropristis inflata
+145,2,Renicola roscovita
+146,2,Meiogymnophallus minutus
+147,2,Gymnophallus gibberosus
+148,2,Gymnophallus choledochus
+149,2,Lacunovermis macomae
+150,2,Parvatrema affinis
+151,2,Monorchis parvus
+152,2,Labratrema minimus
+153,2,Podocotyle atomon 
+154,2,Paravortex sp.
+155,2,Nematoda sp.
+156,2,Mytilicola intestinalis
+157,2,Copepoda spec. 1
+158,2,Copepoda spec 2
+159,2,Sacculina carcini
+160,2,Profilicollis botulus
+161,2,Cestoda sp. Host unknwon
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,

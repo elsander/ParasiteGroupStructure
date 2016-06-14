@@ -1,0 +1,215 @@
+ID,Type,Name
+1,1,carrion-detritus
+2,1,marine-detritus
+3,1,terrestrial-detritus
+4,1,Saltwort
+5,1,epipellic flora
+6,1,Alkali Heath
+7,1,Fleshy Jaumea
+8,1,California Sea Lavender
+9,1,macroalgae
+10,1,Shore Grass
+11,1,phytoplankton
+12,1,Annual Pickleweed
+13,1,Pickleweed
+14,1,California Cordgrass
+15,1,foraminiferan
+16,1,annelid
+17,1,annelid red
+18,1,capitellid?
+19,1,cirratulid
+20,1,cirratulid?
+21,1,Cirriformia spirabrancha
+22,1,ctenodrilid
+23,1,errant annelid
+24,1,errant large annelid
+25,1,Neanthes
+26,1,oligochaete
+27,1,spionid
+28,1,spionid?
+29,1,leech(glossiphonid)
+30,1,anthozoan
+31,1,brown cucumber
+32,1,cucumber
+33,1,nemertean
+34,1,phoronid
+35,1,turbellarian
+36,1,white cucumber
+37,1,white nemertean
+38,1,Chione californiensis
+39,1,Chione fluctifraga
+40,1,California Softshell Clam
+41,1,Ribbed Mussel
+42,1,Pacific Eggcockle
+43,1,Bent-nosed Clam
+44,1,Pacific Littleneck Clam
+45,1,Protothaca?
+46,1,Fat Jackknife Clam
+47,1,Lesser Tagelus
+48,1,unk bivalve
+49,1,Acteocina inculta
+50,1,California Assiminea
+51,1,Cloudy Bubble Snail
+52,1,California Horn Snail
+53,1,Paper Bubble Snail
+54,1,Littorina?
+55,1,Salt Marsh Snail
+56,1,Nassarius tegula
+57,1,opisthobranch
+58,1,pyramidellid
+59,1,Black Salt Marsh Mosquito
+60,1,Argulus
+61,1,Western Encephalitis Mosquito
+62,1,cyclopoid copepod
+63,1,Ephydra
+64,1,gammaridean
+65,1,harpacticoid
+66,1,ostracod-planktonic
+67,1,Salt Marsh Hopper
+68,1,Salt Marsh Water Boatman
+69,1,Calfornia Ghost Shrimp
+70,1,Southern Mud Shrimp
+71,1,Green Shore Crab
+72,1,Striped Shore Crab
+73,1,Fiddler Crab
+74,1,Californian Anchovy
+75,1,Topsmelt
+76,1,Arrow Goby
+77,1,California Killifish
+78,1,Long-jawed Mudsucker
+79,1,Opaleye
+80,1,Bay Blenny
+81,1,Diamond Turbot
+82,1,Cheekspot Goby
+83,1,Grey Smoothhound
+84,1,Sicklefin Smoothhound
+85,1,California Bat Ray
+86,1,California Halibut
+87,1,Spotted Sandbass
+88,1,Thornback Ray
+89,1,Specklefin Midshipman
+90,1,Shadow Goby
+91,1,Shovelnose Guitarfish
+92,1,Haller's Round Ray
+93,1,American Avocet
+94,1,American Bittern
+95,1,American Wigeon
+96,1,Black-bellied Plover
+97,1,Black-crowned Night Heron
+98,1,Black Skimmer
+99,1,Black Turnstone
+100,1,Brant
+101,1,Brown Pelican
+102,1,Bufflehead
+103,1,California Gull
+104,1,Caspian Tern
+105,1,Cinnamon Teal
+106,1,Clapper Rail
+107,1,Dunlin
+108,1,Eared Grebe
+109,1,Forster's Tern
+110,1,Great Blue Heron
+111,1,Great Egret
+112,1,Greater Yellowlegs
+113,1,Green-winged Teal
+114,1,Killdeer
+115,1,Long-billed Curlew
+116,1,Least Sandpiper
+117,1,Lesser Scaup
+118,1,Least Tern
+119,1,Marbled Godwit
+120,1,Mallard
+121,1,Northern Harrier
+122,1,Osprey
+123,1,Ring-billed Gull
+124,1,Red-breasted Merganser
+125,1,Reddish Egret
+126,1,Ruddy Turnstone
+127,1,Short-billed Dowitcher
+128,1,Semipalmated Plover
+129,1,Snowy Egret
+130,1,Snowy Plover
+131,1,Sora
+132,1,Tricolored Heron
+133,1,Western Grebe
+134,1,Western Gull
+135,1,Western Sandpiper
+136,1,Whimbrel
+137,1,Willet
+138,1,copepod-thalassinidean
+139,2,Picornavirus
+140,2,apicomplexan.Tagelus
+141,2,gregarine-Pachy
+142,2,microsporan?mc oval
+143,2,microsporan?mc RL
+144,2,microsporan?prob
+145,2,microsporidean Hemi
+146,2,microsporidean Uca
+147,2,Plasmodium sp.
+148,2,Trichodina sp.
+149,2,graffillid
+150,2,Gyrodactylus sp.
+151,2,Microcotyle sp.
+152,2,Acanthoparyphium spinulosum
+153,2,microphallid-assiminea
+154,2,Austrobilharzia sp.
+155,2,Austrobilharzia sp.
+156,2,Catatropis johnstoni
+157,2,Cloacitrema michiganiensis
+158,2,Euhaplorchis californiensis
+159,2,Gynaecotyla sp.
+160,2,Gynaecotyla sp.
+161,2,hemiurid
+162,2,Himasthla rhigedana
+163,2,Himasthla B
+164,2,Hysterolecitha trilocalis
+165,2,Lecisthaster sp.
+166,2,lepocreadid
+167,2,Renicola sp.
+168,2,mc oval (u+i)
+169,2,mc oval jelly
+170,2,mc unk neo
+171,2,mc unk pericaridean
+172,2,mc unk poly
+173,2,mc unk-tagelus epb
+174,2,Acanthoparyphium
+175,2,Mesostephanus appendiculatus
+176,2,Parorchis acanthus
+177,2,Parvatrema sp.
+178,2,Phocitremoides ovale
+179,2,Probolocoryphe species A
+180,2,Probolocoryphe species B
+181,2,Pygidiopsoides spindalis
+182,2,Renicola buchanani
+183,2,Renicola cerithidicola
+184,2,renic
+185,2,small cyathocotylid
+186,2,Maritrema sp.
+187,2,Stictodora hancocki
+188,2,Tubulovesicula
+189,2,fellodistomid
+190,2,Lepocreadium
+191,2,Glossocercus sp.
+192,2,plerocercoid
+193,2,tetraphyllidean
+194,2,tetraphyllidean larva
+195,2,tetraphyllidean-fish
+196,2,trypanorhynch-fish
+197,2,trypanorhynch-grapsid
+198,2,trypanorhynch-thalassinidean
+199,2,Spirocamallanus pereirae
+200,2,Ascarophis? (Neotrypaea)
+201,2,Ascarophis-like Pachy
+202,2,Ascarophis-like Uca
+203,2,nematode
+204,2,nematode (gnathosome?)
+205,2,neme-long
+206,2,acanth
+207,2,cystacanth-pachygrapsus
+208,2,cystacanth-uca
+209,2,cystacanth-fish b.cav
+210,2,copepod-Pseudomyicola?
+211,2,Leidya sp.
+212,2,Phyllobduris abdominalis
+213,2,Portunion conformis
+214,2,Carcinonemertes sp.

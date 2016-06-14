@@ -1,0 +1,215 @@
+ID,Type,Name
+1,1,phytoplankton
+2,1,benthic-diatoms
+3,1,macroalgae
+4,1,zooplankton
+5,1,meiofauna
+6,1,bacteria
+7,1,Anthopleura
+8,1,Edwardsia sp.
+9,1,Enopla 1
+10,1,Enopla 2
+11,1,Abarenicola affinis
+12,1,Capitellidae 1
+13,1,Capitellidae 2
+14,1,Heteromastus filiformis
+15,1,Decamastus sp.
+16,1,Paraonis sp.
+17,1,Scoloplos johnstonei
+18,1,Macroclymenella stewartensis
+19,1,Hesionidae 1 
+20,1,Exogone sp. 1
+21,1,Exogone sp. 2 
+22,1,Perinereis nuntia
+23,1,Sphaerodorum sp.
+24,1,Spio sp.1
+25,1,Spio sp. 2
+26,1,Boccardia syrtis
+27,1,Boccardia acus
+28,1,Malacoceros sp.
+29,1,Prinospio sp. 1
+30,1,Colurostylis lemurum
+31,1,Diastylopsis thileniusi
+32,1,Tanaisus sp.
+33,1,Heterophoxus stephenseni
+34,1,Phoxocephalus regium
+35,1,Pontharpinia australis
+36,1,Amphipoda 1
+37,1,Paracalliope sp.
+38,1,Cymodopsis montis
+39,1,Callianassa filholi
+40,1,Heterosquilla tricarinata
+41,1,Macrophthalmus hirtipes
+42,1,Hemigrapsus crenulatus
+43,1,Hemigrapsus edwardsii
+44,1,Notoacmea helmsi
+45,1,Diloma subrostrata
+46,1,Zeacumantus subcarinatus
+47,1,Pyramidellidae
+48,1,Cominella glandiformis
+49,1,Nucula dunedinensis
+50,1,Perrierina turneri
+51,1,Macomona liliana
+52,1,Austrovenus stutchburyi
+53,1,Pelecypod 1
+54,1,Paphies sp.
+55,1,Phoronida
+56,1,Edwardsia leucomelos
+57,1,Nemertinea 1
+58,1,Nemertinea 2
+59,1,Nemertinea 3
+60,1,Enopla 3
+61,1,Capittelidae 3
+62,1,Travisia sp.
+63,1,Armandia sp.
+64,1,Naineris sp.
+65,1,Scoloplos cylindrifer
+66,1,Leitoscoloplos sp.
+67,1,Glycera sp.
+68,1,Macrolymenella sp.
+69,1,Dorvillea incerta
+70,1,Goniadidae 1
+71,1,Hesionidae 2
+72,1,Geminosyllis sp.
+73,1,Exogone sp. 3
+74,1,Aglaophamus sp. 1
+75,1,Perinereis sp. 2
+76,1,Tharyx sp.
+77,1,Prinospio sp. 2
+78,1,Aonides sp. 1
+79,1,Terebellidae 1
+80,1,Terebellidae 2
+81,1,Pectinaria sp.
+82,1,Diastillidae 3
+83,1,Neballidae 1
+84,1,Lysianassidae 1
+85,1,Lysianassidae 2
+86,1,Paracorophium lucasi
+87,1,Aora sp.
+88,1,Oedicerotidae
+89,1,Exosphaeroma planulum
+90,1,Pseudophaeroma campbellensis
+91,1,Halicarcinus whitei
+92,1,Glaucusa sp.
+93,1,Littorina antipodum
+94,1,Neoguraleus ap. 1
+95,1,Cominella sp. 1
+96,1,Buccinulum pertinax
+97,1,Holothuroidea 1
+98,1,Perna canaliculus
+99,1,Amphibola crenata
+100,1,Flatfish sp.
+101,1,Mullet
+102,1,Spotty
+103,1,Garfish
+104,1,Barracuda
+105,1,Stignray sp.
+106,1,Dogfish sp.
+107,1,Oystercatcher 1
+108,1,Oystercatcher 2
+109,1,Vanellus
+110,1,Bb Gull
+111,1,Rb Gull
+112,1,Wf Heron
+113,1,Wf Tern
+114,1,Mallard
+115,1,Caspian Tern
+116,1,Stilt
+117,1,Shelduck
+118,1,Grey Duck
+119,1,Spoonbill
+120,1,Black Swan
+121,1,Godwit
+122,1,Pied Cormorant
+123,1,Little Shag
+124,2,Maritrema Novae
+125,2,Levinseniella
+126,2,Microphallus
+127,2,Galactosomum
+128,2,Renicola
+129,2,Philophthalmus
+130,2,Curtuteria 1
+131,2,Acanthoparyphium
+132,2,Gymnophallus
+133,2,Opecoelid
+134,2,Ascarophis
+135,2,Acuariidae
+136,2,Profilicollis anta
+137,2,Profilicollis novae
+138,2,Myicolid Copepod
+139,2,Amphi-Trematode sp.
+140,2,Fellostomatid
+141,2,Strigeid
+142,2,Pinnotheres novaezelandiae
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
+NA,NA,
