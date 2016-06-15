@@ -21,15 +21,16 @@ ID,Type,Name
 20,1,Capitella capitata
 21,1,capitellid?
 22,1,Cirriformia spirabrancha
-23,1,Neanthes "arenaceodentata"
+23,1,Neanthes arenaceodentata
 24,1,oligochaete
 25,1,brown hesionid
 26,1,poly unk (brwn setae ant third)
-27,1,orbiniid, pointed prostomium
+27,1,orbiniid
+ pointed prostomium,NA,
 28,1,Naineris
 29,1,poly unk B (4 prost. tents)
 30,1,poly unk B (lg green)
-31,1,poly unk("fuzzy dorsum")
+31,1,poly unk(fuzzy dorsum)
 32,1,Polydora sp.
 33,1,spionid
 34,1,leech(glossiphonid)
@@ -170,46 +171,3 @@ ID,Type,Name
 169,2,Ceratothoa sp.
 170,2,Leidya sp.
 171,2,Lironeca californica
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,

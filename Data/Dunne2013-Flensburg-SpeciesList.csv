@@ -12,7 +12,8 @@ ID,Type,Name
 11,1,nematodes
 12,1,Hediste diversicolor
 13,1,Spionidae
-14,1,Oligochaeta, Tubificidae
+14,1,Oligochaeta
+ Tubificidae,NA,
 15,1,Mytilus edulis
 16,1,Cerastoderma edule
 17,1,Mya arenaria
@@ -70,8 +71,10 @@ ID,Type,Name
 69,1,Pungitius pungitius
 70,1,Podicepidae/Gaviidae
 71,1,Phalacrocoracidae
-72,1,Anatidae (Tadorninae, Anatinae)
-73,1,Anatidae (Somateriinae, Athyinae)
+72,1,Anatidae (Tadorninae
+ Anatinae),NA,
+73,1,Anatidae (Somateriinae
+ Athyinae),NA,
 74,1,Charadriidae
 75,1,Laridae 
 76,1,Sternidae
@@ -122,94 +125,3 @@ ID,Type,Name
 121,2,Acanthella-larva
 122,2,Echinorhynchus sp.
 123,2,Thersitina gasterostei
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
-NA,NA,
