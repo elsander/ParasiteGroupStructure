@@ -1,0 +1,182 @@
+---
+title: "Statistics to support Sander *et al.*"
+author: "Liz Sander"
+date: "17 May 2016"
+output: html_document
+---
+
+```{r session_setup, echo=FALSE, warning = FALSE, message = FALSE}
+source('ImbalanceTableSampling.R')
+source('CalculateEvenness.R')
+source('MutualInformation.R')
+library(dplyr)
+library(agricolae) ## for HSD test
+```
+
+```{r DC_Imbalance_ttest, echo=FALSE, warning = FALSE, message = FALSE}
+## paired test for the difference between degree-corrected
+## and non-degree-corrected imbalance values.
+## Separate tests performed with and without concomitant
+## predation.
+## Function taken from ImbalanceTableSampling.R
+out <- ImbalanceTableSampling(
+    '../../Results/ImbalanceSampling', '.')
+## format output for paired t-test, pairing degree corrected/uncorrected
+imbTable <- out %>% unite(tmp, Imbalance, probimbal, sigstars) %>%
+    tidyr::spread(key = DC, value = tmp) %>%
+    tidyr::separate(Corrected,
+                    c('Corrected_Imbalance_c', 'Corrected_probimbal_c',
+                      'Corrected_sigstars'), sep = '_') %>%
+    tidyr::separate(Uncorrected,
+                    c('Uncorrected_Imbalance_c', 'Uncorrected_probimbal_c',
+                      'Uncorrected_sigstars'), sep = '_') %>%
+    dplyr::mutate(Corrected_Imbalance = as.numeric(Corrected_Imbalance_c)) %>%
+    dplyr::mutate(Corrected_probimbal = as.numeric(Corrected_probimbal_c)) %>%
+    dplyr::mutate(Uncorrected_Imbalance = as.numeric(Uncorrected_Imbalance_c)) %>%
+    dplyr::mutate(Uncorrected_probimbal = as.numeric(Uncorrected_probimbal_c)) %>%
+    dplyr::select(-Corrected_Imbalance_c, -Corrected_probimbal_c,
+                  -Uncorrected_Imbalance_c, -Uncorrected_probimbal_c)
+## split into concomitant/no concomitant and run separate t-tests
+imbTablePar <- imbTable %>% dplyr::filter(parcon == 'No_Concomitant')
+imbTableParCon <- imbTable %>% dplyr::filter(parcon == 'Concomitant')
+imbDiffPar <- t.test(imbTablePar$Uncorrected_Imbalance,
+                     imbTablePar$Corrected_Imbalance,
+                     alternative = "two.sided", paired = TRUE)
+imbDiffParCon <- t.test(imbTableParCon$Uncorrected_Imbalance,
+                        imbTableParCon$Corrected_Imbalance,
+                        alternative = "two.sided", paired = TRUE)
+```
+
+The estimated difference between uncorrected and corrected imbalance
+values across all webs is `r as.vector(imbDiffPar$estimate)`
+(p = `r imbDiffPar$p.value`) when concomitant predation is excluded,
+and
+`r as.vector(imbDiffParCon$estimate)` (p = `r imbDiffParCon$p.value`)
+when it is included.
+
+```{r concom_difference_ttest, echo = FALSE, warning = FALSE, message = FALSE}
+## format output for paired t-test, pairing concomitant/no concomitant
+imbTableConcom <- out %>% unite(tmp, Imbalance, probimbal, sigstars) %>%
+    tidyr::spread(key = parcon, value = tmp) %>%
+    tidyr::separate(No_Concomitant,
+                    c('Par_Imbalance_c', 'Par_probimbal_c',
+                      'Par_sigstars'), sep = '_') %>%
+    tidyr::separate(Concomitant,
+                    c('ParCon_Imbalance_c', 'ParCon_probimbal_c',
+                      'ParCon_sigstars'), sep = '_') %>%
+    dplyr::mutate(Par_Imbalance = as.numeric(Par_Imbalance_c)) %>%
+    dplyr::mutate(Par_probimbal = as.numeric(Par_probimbal_c)) %>%
+    dplyr::mutate(ParCon_Imbalance = as.numeric(ParCon_Imbalance_c)) %>%
+    dplyr::mutate(ParCon_probimbal = as.numeric(ParCon_probimbal_c)) %>%
+    dplyr::select(-Par_Imbalance_c, -Par_probimbal_c,
+                  -ParCon_Imbalance_c, -ParCon_probimbal_c)
+## split into degree corrected/uncorrected and run separate t-tests
+imbTableDC0 <- imbTableConcom %>% dplyr::filter(DC == 'Uncorrected')
+imbTableDC1 <- imbTableConcom %>% dplyr::filter(DC == 'Corrected')
+imbDiffDC0 <- t.test(imbTableDC0$Par_Imbalance,
+                     imbTableDC0$ParCon_Imbalance,
+                     alternative = "two.sided", paired = TRUE)
+imbDiffDC1 <- t.test(imbTableDC1$Par_Imbalance,
+                     imbTableDC1$ParCon_Imbalance,
+                     alternative = "two.sided", paired = TRUE)
+```
+
+The estimated difference in imbalance between a web without
+concomitant predation and a web with it is
+`r as.vector(imbDiffDC0$estimate)` (p = `r imbDiffDC0$p.value`) when
+not correcting for degree, and `r as.vector(imbDiffDC1$estimate)` (p =
+`r imbDiffDC1$p.value`) using the degree-corrected model.
+
+```{r degree_difference_ANOVA, echo = FALSE, warning = FALSE, message = FALSE}
+## ANOVAs to test for differences in indegree and outdegree across
+## ecological categorizations. Separate ANOVAs for in and out degree,
+## and for with/without concomitant predppation.
+## Code snippets taken from DegreeHist.R
+## Note that this is a one-way ANOVA, so the unbalanced design
+## is not a major issue.
+webs <- c('BahiaFalsa', 'Carpinteria', 'Flensburg', 'Otago',
+          'PuntaBanda', 'Sylt', 'Ythan')
+pc <- c('Par', 'ParCon')
+degreedf <- data.frame(Web = character(0),
+                       parcon = character(0),
+                       Degree = numeric(0),
+                       InOut = character(0),
+                       Ecological_Group = character(0))
+for(web in webs){
+    for(pcname in pc){
+        if(pcname == 'Par') dfpc <- 'No Concomitant' else dfpc <- 'Concomitant'
+        mat <- as.matrix(read.table(
+            paste0('../../Data/Dunne2013-', web, '-',
+                   pcname, '-mat.txt')))
+        classvec <- as.vector(as.matrix(read.table(
+            paste0('../../Data/Dunne2013-', web, '-Category.txt'))))
+        tmp <- data.frame(Web = rep(web, nrow(mat)*2),
+                          parcon = rep(dfpc, nrow(mat)*2),
+                          Degree = c(rowSums(mat), colSums(mat)),
+                          InOut = c(rep('Indegree', nrow(mat)),
+                              rep('Outdegree', nrow(mat))),
+                          Ecological_Group = rep(classvec, 2))
+        degreedf <- degreedf %>% dplyr::bind_rows(tmp)
+    }
+}
+## ANOVA tests
+aovInPar <- aov(Degree ~ Ecological_Group,
+                data = filter(degreedf, InOut == 'Indegree', parcon == 'No Concomitant'))
+HSDaovInPar <- agricolae::HSD.test(aovInPar, "Ecological_Group", group = TRUE)
+aovOutPar <- aov(Degree ~ Ecological_Group,
+                 data = filter(degreedf, InOut == 'Outdegree',
+                     parcon == 'No Concomitant'))
+HSDaovOutPar <- agricolae::HSD.test(aovOutPar, "Ecological_Group", group = TRUE)
+aovInParCon <- aov(Degree ~ Ecological_Group,
+                   data = filter(degreedf, InOut == 'Indegree', parcon == 'Concomitant'))
+HSDaovInParCon <- agricolae::HSD.test(aovInParCon, "Ecological_Group", group = TRUE)
+aovOutParCon <- aov(Degree ~ Ecological_Group,
+                data = filter(degreedf, InOut == 'Outdegree', parcon == 'Concomitant'))
+HSDaovOutParCon <- agricolae::HSD.test(aovOutParCon, "Ecological_Group", group = TRUE)
+```
+
+Degree differs significantly across ecological categorizations both
+with (indegree: p = `r summary(aovInPar)[[1]][[1,"Pr(>F)"]]`,
+outdegree: `r summary(aovOutPar)[[1]][[1,"Pr(>F)"]]`) and without
+(indegree: `r summary(aovInParCon)[[1]][[1,"Pr(>F)"]]`, outdegree:
+`r summary(aovOutParCon)[[1]][[1,"Pr(>F)"]]`) concomitant
+predation. Differences in means were summarized by calculating the
+Tukey's HSD:
+
+Indegree, no concomitant:
+```{r echo=FALSE}
+HSDaovInPar$groups
+```
+
+Outdegree, no concomitant:
+```{r echo=FALSE}
+HSDaovOutPar$groups
+```
+
+Indegree, with concomitant:
+```{r echo=FALSE}
+HSDaovInParCon$groups
+```
+
+Outdegree, with concomitant:
+```{r echo=FALSE}
+HSDaovOutParCon$groups
+```
+
+```{r calculate_evenness, echo=FALSE, warning = FALSE, message = FALSE}
+## from CaclulateEvenness.R
+evenlist <- BuildEvennessDF('../../Results/GroupModel/')
+evennessDF <- evenlist$even
+## split by concomitant predation and run t-tests
+evenPar <- dplyr::filter(evennessDF, parcon == 'Par')
+evenParCon <- dplyr::filter(evennessDF, parcon == 'ParCon')
+ttestPar <- t.test(evenPar$Uncorrected, evenPar$Corrected,
+                   alternative = 'two.sided', paired = TRUE)
+ttestParCon <- t.test(evenParCon$Uncorrected, evenParCon$Corrected,
+                      alternative = 'two.sided', paired = TRUE)
+```
+
+Uncorrected partitions are significantly less even across webs both
+for webs with (estimate: `r ttestPar$estimate`, p =
+`r ttestPar$p.value`) and without (estimate: `r ttestParCon$estimate`, p
+= `r ttestParCon$p.value`) concomitant predation.

@@ -20,7 +20,7 @@ information, separated by dashes:
 (NA for the uncorrected model)
 - "beta-" followed by the beta parameter used for the gamma prior
 (NA for the uncorrected model)
-- "Lik" followed by the marginal likelihood of the grouping (here, the
+- "Marginal" followed by the marginal likelihood of the grouping (here, the
   dash results from the fact that the marginal likelihood is negative)
 
 ## File Structure
