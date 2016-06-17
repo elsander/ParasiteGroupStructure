@@ -19,17 +19,16 @@ library(agricolae) ## for HSD test
 ## Separate tests performed with and without concomitant
 ## predation.
 ## Function taken from ImbalanceTableSampling.R
-out <- ImbalanceTableSampling(
-    '../../Results/ImbalanceSampling', '.')
+out <- ImbalanceTableSampling('../../Results/ImbalanceSampling')
 ## format output for paired t-test, pairing degree corrected/uncorrected
-imbTable <- out %>% unite(tmp, Imbalance, probimbal, sigstars) %>%
+imbTable <- out %>% unite(tmp, Imbalance, probimbal) %>%
     tidyr::spread(key = DC, value = tmp) %>%
     tidyr::separate(Corrected,
-                    c('Corrected_Imbalance_c', 'Corrected_probimbal_c',
-                      'Corrected_sigstars'), sep = '_') %>%
+                    c('Corrected_Imbalance_c', 'Corrected_probimbal_c'),
+                    sep = '_') %>%
     tidyr::separate(Uncorrected,
-                    c('Uncorrected_Imbalance_c', 'Uncorrected_probimbal_c',
-                      'Uncorrected_sigstars'), sep = '_') %>%
+                    c('Uncorrected_Imbalance_c', 'Uncorrected_probimbal_c'),
+                    sep = '_') %>%
     dplyr::mutate(Corrected_Imbalance = as.numeric(Corrected_Imbalance_c)) %>%
     dplyr::mutate(Corrected_probimbal = as.numeric(Corrected_probimbal_c)) %>%
     dplyr::mutate(Uncorrected_Imbalance = as.numeric(Uncorrected_Imbalance_c)) %>%
@@ -56,14 +55,12 @@ when it is included.
 
 ```{r concom_difference_ttest, echo = FALSE, warning = FALSE, message = FALSE}
 ## format output for paired t-test, pairing concomitant/no concomitant
-imbTableConcom <- out %>% unite(tmp, Imbalance, probimbal, sigstars) %>%
+imbTableConcom <- out %>% unite(tmp, Imbalance, probimbal) %>%
     tidyr::spread(key = parcon, value = tmp) %>%
     tidyr::separate(No_Concomitant,
-                    c('Par_Imbalance_c', 'Par_probimbal_c',
-                      'Par_sigstars'), sep = '_') %>%
+                    c('Par_Imbalance_c', 'Par_probimbal_c'), sep = '_') %>%
     tidyr::separate(Concomitant,
-                    c('ParCon_Imbalance_c', 'ParCon_probimbal_c',
-                      'ParCon_sigstars'), sep = '_') %>%
+                    c('ParCon_Imbalance_c', 'ParCon_probimbal_c'), sep = '_') %>%
     dplyr::mutate(Par_Imbalance = as.numeric(Par_Imbalance_c)) %>%
     dplyr::mutate(Par_probimbal = as.numeric(Par_probimbal_c)) %>%
     dplyr::mutate(ParCon_Imbalance = as.numeric(ParCon_Imbalance_c)) %>%
@@ -73,11 +70,11 @@ imbTableConcom <- out %>% unite(tmp, Imbalance, probimbal, sigstars) %>%
 ## split into degree corrected/uncorrected and run separate t-tests
 imbTableDC0 <- imbTableConcom %>% dplyr::filter(DC == 'Uncorrected')
 imbTableDC1 <- imbTableConcom %>% dplyr::filter(DC == 'Corrected')
-imbDiffDC0 <- t.test(imbTableDC0$Par_Imbalance,
-                     imbTableDC0$ParCon_Imbalance,
+imbDiffDC0 <- t.test(imbTableDC0$ParCon_Imbalance,
+                     imbTableDC0$Par_Imbalance,
                      alternative = "two.sided", paired = TRUE)
-imbDiffDC1 <- t.test(imbTableDC1$Par_Imbalance,
-                     imbTableDC1$ParCon_Imbalance,
+imbDiffDC1 <- t.test(imbTableDC1$ParCon_Imbalance,
+                     imbTableDC1$Par_Imbalance,
                      alternative = "two.sided", paired = TRUE)
 ```
 
@@ -164,9 +161,8 @@ HSDaovOutParCon$groups
 ```
 
 ```{r calculate_evenness, echo=FALSE, warning = FALSE, message = FALSE}
-## from CaclulateEvenness.R
-evenlist <- BuildEvennessDF('../../Results/GroupModel/')
-evennessDF <- evenlist$even
+## from CalculateEvenness.R
+evennessDF <- BuildEvennessDF('../../Results/GroupModel/')
 ## split by concomitant predation and run t-tests
 evenPar <- dplyr::filter(evennessDF, parcon == 'Par')
 evenParCon <- dplyr::filter(evennessDF, parcon == 'ParCon')
