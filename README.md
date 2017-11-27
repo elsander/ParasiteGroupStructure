@@ -1,8 +1,8 @@
-#ParasiteGroupStructure: code and data to support and replicate Sander
-# *et al.* (*in prep.*)
+# ParasiteGroupStructure: code and data to support and replicate Michalska-Smith
+# *et al.* (*in press*)
 
 This repository contains the code, data, and results needed to
-replicate the findings in Sander *et al.* (*in prep.*).
+replicate the findings in Michalska-Smith *et al.* (*in press*).
 
 The `Data/` folder contains data from Dunne *et al.* 2013 (PLoS
 Biology), formatted for use in Sander *et al.*. The `Results/` folder
@@ -12,7 +12,7 @@ used in our analyses: the group model search algorithm, imbalance and
 p-value calculation, mutual information, and statistical
 analyses. More detailed information about the files is given in README
 files in repository subfolders. For a description of the methodology
-and results, see Sander *et al.* (*in prep.*).
+and results, see Michalska-Smith *et al.* (*in press*).
 
 Note that throughout, flags are used to distinguish between
 degree-corrected and uncorrected models. A 0 flag corresponds to the
