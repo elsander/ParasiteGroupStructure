@@ -1,5 +1,4 @@
-# ParasiteGroupStructure: code and data to support and replicate Michalska-Smith
-# *et al.* (*in press*)
+# ParasiteGroupStructure: code and data to support and replicate Michalska-Smith *et al.* (*in press*)
 
 This repository contains the code, data, and results needed to
 replicate the findings in Michalska-Smith *et al.* (*in press*).
